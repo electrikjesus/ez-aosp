@@ -8,8 +8,8 @@
 # You can contribute to or fork this program here: https://github.com/mikecriggs/ez-aosp
 #
 
-# Update Ubuntu
-  echo -e "Updating Ubuntu..."
+# Update mx
+  echo -e "Updating mx..."
   echo -e ""
   echo -e ""
   sleep 3
@@ -17,6 +17,6 @@
   sudo apt update -y
   sudo apt upgrade -y
   clear
-  echo -e "Finished updating Ubuntu."
+  echo -e "Finished updating mx."
   echo -e ""
   echo -e ""

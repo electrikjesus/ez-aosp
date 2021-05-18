@@ -39,7 +39,7 @@
   whiptail --title "EZ AOSP" --msgbox "Written by Michael S Corigliano (Mike Criggs) \n\nEmail: michael.s.corigliano@gmail.com \nGitHub: github.com/mikecriggs\nGoogle+: google.com/+MichaelCorigliano \nTwitter: twitter.com/MikeCriggs" 15 70
 
 # EZ AOSP description
-  whiptail --title "EZ AOSP" --msgbox "This tool is meant to help set up an AOSP (Android Open Source Project) build environment as painlessly and user-friendly as possible. By doing this, contributions to AOSP and custom aftermarket AOSP firmware, also known as 'custom ROMs' will be much easier to make. Please be aware that this program currently only supports Ubuntu 16.04 LTS. Other Ubuntu versions and Linux distributions will be added in the future. \n\nContributions to this program can be made here: github.com/mikecriggs/ez-aosp" 20 70
+  whiptail --title "EZ AOSP" --msgbox "This tool is meant to help set up an AOSP (Android Open Source Project) build environment as painlessly and user-friendly as possible. By doing this, contributions to AOSP and custom aftermarket AOSP firmware, also known as 'custom ROMs' will be much easier to make. Please be aware that this program currently only supports mx. Other mx versions and Linux distributions will be added in the future. \n\nContributions to this program can be made here: github.com/mikecriggs/ez-aosp" 20 70
 
 # Continue?
   if (whiptail --title "EZ AOSP" --yesno "Would you like to start setting up the build environment?" 10 70)
@@ -60,13 +60,13 @@
   echoFun
   sleep 3
 
-# Update Ubuntu OS
-  if (whiptail --yesno --title "EZ AOSP" "Would you like to update Ubuntu? If not, you can update this later with 'res/extras/update-ubuntu.sh'" 10 70)
+# Update mx OS
+  if (whiptail --yesno --title "EZ AOSP" "Would you like to update mx? If not, you can update this later with 'res/extras/update-mx.sh'" 10 70)
   then
-    updateUbuntu
+    updatemx
     clear
   else
-    TXT="Not updating Ubuntu...'"
+    TXT="Not updating mx...'"
     echoFun
     sleep 3
     clear

@@ -18,9 +18,9 @@
 # GNU General Public License for more details.
 #
 
-# Update Ubuntu
+# Update mx
   clear
-  echo -e "Updating Ubuntu..."
+  echo -e "Updating mx..."
   sleep 3
   clear
 
@@ -28,7 +28,7 @@
   sudo apt upgrade -y
 
   clear  
-  echo -e "Ubuntu updated."
+  echo -e "mx updated."
   sleep 3
 
 # Install packages required for building AOSP
