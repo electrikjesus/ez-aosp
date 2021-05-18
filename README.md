@@ -6,7 +6,7 @@
 
 ### How to get it ###
 ```bash
-  git clone git://github.com/mikecriggs/ez-aosp.git ez-aosp
+  git clone git://github.com/electrikjesus/ez-aosp.git ez-aosp
 ```
 
 ### How to use it ###
